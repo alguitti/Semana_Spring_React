@@ -16,9 +16,9 @@
 	<description>Projeto da Semana Spring React DevSuperior</description>
 	<properties>
 		<java.version>11</java.version>
-		<maven.compiler.source>11</maven.compiler.source> 
-		<maven.compiler.target>11</maven.compiler.target> 
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -92,7 +92,6 @@
 			<artifactId>maven-plugin-api</artifactId>
 			<version>3.8.6</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -107,7 +106,7 @@
 		</pluginManagement>
 
 		<plugins>
-		<!--  Adicionado a pedidos do professor... pode dar conflito -->
+			<!-- Adicionado a pedidos do professor... pode dar conflito -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
