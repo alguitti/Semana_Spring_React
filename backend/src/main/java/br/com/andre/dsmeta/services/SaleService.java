@@ -11,13 +11,13 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import br.com.andre.dsmeta.entities.Sale;
-import br.com.andre.dsmeta.repositories.SaleRepositories;
+import br.com.andre.dsmeta.repositories.SaleRepository;
 
 @Service
 public class SaleService {
 
 	@Autowired
-	private SaleRepositories saleRepository;
+	private SaleRepository saleRepository;
 
 	public List<Sale> findAll() {
 		return saleRepository.findAll();

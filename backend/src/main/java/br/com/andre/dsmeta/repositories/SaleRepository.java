@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import br.com.andre.dsmeta.entities.Sale;
 
 @Repository
-public interface SaleRepositories extends JpaRepository<Sale, Long>{
+public interface SaleRepository extends JpaRepository<Sale, Long>{
 
 	/**
 	 * Makes a query within the provided period sorting by the object amount
