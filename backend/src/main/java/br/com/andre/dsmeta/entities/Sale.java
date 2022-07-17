@@ -24,7 +24,7 @@ import lombok.ToString;
 @EqualsAndHashCode(of = "id")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Sales implements Serializable{
+public class Sale implements Serializable{
 	static final long serialVersionUID = 1L;
 	
 	@Id
